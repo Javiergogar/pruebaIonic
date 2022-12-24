@@ -5,8 +5,27 @@
 </ion-header>
 
 <ion-content>
-  <div id="container">
+  <ion-grid>
+    <ion-row>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="6">
+        <div class="texto">Texto1</div>
+      </ion-col>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="6">
+        <div class="texto">Texto2</div>
+      </ion-col>
+ 
+    </ion-row>
+    <ion-row>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="9">
+        <div class="texto">Texto3</div>
+      </ion-col>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="3">
+        <div class="texto">Texto4</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <!-- <div id="container">
     <button ion-button [routerLink]="['/customers']" class="btn">Go to customers</button>
-    <!---Ejemplo para hacerlo desde el html, de customers a home desde el ts(dos formas distintas)-->
-  </div>
+    <Ejemplo para hacerlo desde el html, de customers a home desde el ts(dos formas distintas)>
+  </div> -->
 </ion-content>
