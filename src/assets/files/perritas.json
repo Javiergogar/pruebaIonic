@@ -1,0 +1,22 @@
+{
+    "data":[
+        {
+            "name":"Kim Possible",
+            "state":"Se le da",
+            "description":"Te gusta chocar con el loco que repetiste",
+            "image":"kim.jpg"
+        },
+        {
+            "name":"Reina",
+            "state":"PERRITAAA jejejejje",
+            "description":"SE TE DA PERRITA",
+            "image":"perrita.jpg"
+        },
+        {
+            "name":"Widowmaker",
+            "state":"Se le da",
+            "description":"Esa salvaje",
+            "image":"Widow.png"
+        }
+    ]
+}

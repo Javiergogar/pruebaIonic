@@ -1,0 +1,16 @@
+{
+    "data":[
+        {
+            "name":"Rayo macqueen",
+            "image":"rayo.jpg" 
+        },
+        {
+            "name":"Mate malatemporada",
+            "image":"mate.jpg"
+        },
+        {
+            "name":"Ramon",
+            "image":"ramon.jpg"
+        }
+    ]
+}
