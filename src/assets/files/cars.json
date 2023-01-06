@@ -1,16 +1,22 @@
 {
     "data":[
         {
+            "id":1,
             "name":"Rayo macqueen",
-            "image":"rayo.jpg" 
+            "image":"rayo.jpg",
+            "desc":"el prota ahi a tope" 
         },
         {
+            "id":2,
             "name":"Mate malatemporada",
-            "image":"mate.jpg"
+            "image":"mate.jpg",
+            "desc":"sainz padre con el coche del dakar"
         },
         {
+            "id":3,
             "name":"Ramon",
-            "image":"ramon.jpg"
+            "image":"ramon.jpg",
+            "desc":"ramon"
         }
     ]
 }

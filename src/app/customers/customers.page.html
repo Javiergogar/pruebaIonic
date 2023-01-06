@@ -8,6 +8,13 @@
 </ion-header>
 
 <ion-content >
+
+  
+    <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+      <ion-refresher-content refreshingSpinner="circles"></ion-refresher-content>
+    </ion-refresher>
+  
+
   <ion-list [inset]="true" *ngIf="permission">
     <ion-list-header >
       <h2 class="colorLila">Se le da</h2>

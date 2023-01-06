@@ -12,6 +12,7 @@ import { AlertController, ToastController } from '@ionic/angular';
 })
 export class CarsPage implements OnInit {
 
+  token = localStorage.getItem("token"); //Para obtener el token
   cars: any = [];
 
   constructor(
@@ -22,14 +23,17 @@ export class CarsPage implements OnInit {
   ) { }
 
   ngOnInit() {
-    console.log("Hoola ngOnInit");
-    this.getCities().subscribe(res=>{
+    console.log("token:",this.token);
+    localStorage.removeItem('token'); //par borrar el token
+    //Si quisiera borrar todo el localStorage seria:
+    //localStorage.clear()
+    this.getCars().subscribe(res=>{
       console.log("Res",res)
       this.cars= res;
     });
   }
 
-  getCities(){
+  getCars(){
     return this.http.get("assets/files/cars.json")
     .pipe(
       map((res:any)=>{ //Esto sirve para mapear el json y que te devuelva lo de dentro de data, para no estar poniendo todo el rato data
