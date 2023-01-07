@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Share } from '@capacitor/share';
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -14,4 +15,14 @@ export class AppComponent {
   ];
   //public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
+
+  shareApp(){
+    Share.share({
+      title: 'mitituloLunaDePluton',
+      text: 'Really weno texto',
+      url: 'http://ionicframework.com/',
+     
+    });
+
+  }
 }
