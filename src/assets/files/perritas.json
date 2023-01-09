@@ -2,20 +2,20 @@
     "data":[
         {
             "name":"Kim Possible",
-            "state":"Se le da",
-            "description":"Te gusta chocar con el loco que repetiste",
+            "state":"La de futurama",
+            "description":"Hola te contactaba...",
             "image":"kim.jpg"
         },
         {
             "name":"Reina",
-            "state":"PERRITAAA jejejejje",
-            "description":"SE TE DA PERRITA",
+            "state":"Espagueti",
+            "description":"ya esta la broma",
             "image":"perrita.jpg"
         },
         {
             "name":"Widowmaker",
-            "state":"Se le da",
-            "description":"Esa salvaje",
+            "state":"La del ow",
+            "description":"friki",
             "image":"Widow.png"
         }
     ]

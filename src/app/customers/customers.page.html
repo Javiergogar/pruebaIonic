@@ -17,11 +17,11 @@
 
   <ion-list [inset]="true" *ngIf="permission">
     <ion-list-header >
-      <h2 class="colorLila">Se le da</h2>
+      <h2 class="colorLila">Recientes</h2>
     </ion-list-header>
     <ion-item *ngFor="let user of searchedUser">
       <ion-avatar slot="start">
-        <img src="../../assets/img-perritas/{{user.image}}">
+        <img src="../../assets/img-conversaciones/{{user.image}}">
       </ion-avatar>
       <ion-avatar slot="end">
         <ion-icon name="chatbox-ellipses-outline"></ion-icon>

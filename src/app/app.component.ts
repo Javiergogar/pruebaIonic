@@ -8,7 +8,7 @@ import { Share } from '@capacitor/share';
 export class AppComponent {
   public appPages = [
     { title: 'Home', url: '/home', icon: 'home' },
-    { title: 'Perritas', url: '/customers', icon: 'accessibility' },
+    { title: 'Conversaciones', url: '/customers', icon: 'accessibility' },
     { title: 'Cars', url: '/cars', icon: 'car-sport' },
     { title: 'Inicio de Sesion', url: '/login', icon: 'log-in' }
     
@@ -17,6 +17,7 @@ export class AppComponent {
   constructor() {}
 
   shareApp(){
+    console.log("Boton de share, app.component")
     Share.share({
       title: 'mitituloLunaDePluton',
       text: 'Really weno texto',
