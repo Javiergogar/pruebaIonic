@@ -44,7 +44,7 @@ export class CustomersPage implements OnInit {
     )
   }
   
-  searchPerritas(event){
+  searchCustomers(event){
    const text = event.target.value; 
    this.searchedUser = this.users;
    if(text && text.trim() != ''){

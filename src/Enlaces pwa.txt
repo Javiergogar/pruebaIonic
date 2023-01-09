@@ -1,0 +1,20 @@
+https://capacitorjs.com/docs/web
+https://ionicframework.com/docs/angular/pwa
+http://www.joserg.es/crea-una-progressive-web-app-con-ionic/
+https://www.youtube.com/watch?v=f118CiCiOdc
+------------------------------------------------------------
+
+
+
+Instalo firebase CLI: npm install -g firebase-tools
+Modifico angular.json la propiedad "outputPath" a "public" (era "www") para que firebase haga el deploy
+Añado angular/pwa: ng add @angular/pwa
+Compilar con: ionic build --prod --service-work, que debe crear una carpeta "public" con la build hecha
+Despues: firebase login
+y: firebase init
+Hay modificar el archivo firebase.json, con lo que pone en la doc de ionic, revisar video youtube
+Por ultimo: firebase deploy
+
+Resultados:
+Project Console: https://console.firebase.google.com/project/pruebaionic-c6c22/overview
+Hosting URL: https://pruebaionic-c6c22.web.app
