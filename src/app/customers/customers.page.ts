@@ -36,7 +36,7 @@ export class CustomersPage implements OnInit {
   }
 
   getUsers(){
-    return this.http.get("assets/files/perritas.json")
+    return this.http.get("assets/files/customers.json")
     .pipe(
       map((res:any)=>{ //Esto sirve para mapear el json y que te devuelva lo de dentro de data, para no estar poniendo todo el rato data
         return res.data;
